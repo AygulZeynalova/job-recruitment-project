@@ -192,7 +192,7 @@
   }
   
 header {
-  position: sticky;
+  position: fixed;
     top: -54px;
 }
 .header-top {

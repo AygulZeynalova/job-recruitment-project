@@ -195,13 +195,13 @@ header {
 .cv {
   background-color: #6F1D1B;
   width: 20%;
-  margin-left: 1100px;
+  margin-right: 2000px;
   height: 370px;
-  margin-top:-280px;
-  display: flex; /* Add this to make the contents of .cv a flex container */
-  flex-direction: column; /* Stack the children of .cv vertically */
-  align-items: center; /* Center the children of .cv horizontally */
-  justify-content: center; /* Center the children of .cv vertically */
+  margin-top: 20px; /* Adjust this to position the widget below the sidebar */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-image: url(https://demo.cmssuperheroes.com/themeforest/wp-recruitment/wp-content/themes/wp-recruitment/assets/images/cv.png);
   background-repeat: no-repeat;
   background-position: right -5px bottom -24px;
