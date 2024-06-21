@@ -1,0 +1,135 @@
+.flat-header {
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-image: url(https://www.konnectplugins.com/recruit/img/dark-bg.jpg);
+    text-align: center;
+    color: white;
+    margin-top: -3px;
+}
+.flat-header .header-content {
+    position: relative;
+    text-align: center;
+    padding: 80px 15px 100px;
+    width: 100%;
+}
+.flat-header .header-content .header-content-inner h1 {
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: none;
+}
+.konnect-button-1 {
+    margin-top: 60px;
+}
+.konnect-button-1 a {
+    padding: 15px 41px;
+    border: 1px solid #6F1D1B;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 4px;
+   
+}
+.light-bg {
+    margin-top: 450px;
+}
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.text-center {
+    text-align: center;
+    color:#6F1D1B;
+}
+.light-bg p {
+    color: #000000;
+    font-weight: 400;
+}
+
+.konnect-home {
+    padding: 5px 15px;
+    border: 1px solid #6F1D1B;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 16px;
+    background: #6F1D1B;
+}
+.text-center span {
+    font-size: 15px;
+}
+
+.light-bg {
+    margin-left: 210px;
+}
+.container {
+    width: 1170px;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.section-heading {
+    margin-top: 0;
+    font-weight: 400;
+}
+.text-dark {
+    color: #333333;
+}
+h4 {
+    font-size: 18px;
+}
+.ptext p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    letter-spacing: 0.2px;
+}
+.konnect-list li {
+    list-style:circle;
+    font-size: 17px;
+    line-height: 31px;
+    font-weight: 500;
+    padding-left: 3px;
+}
+.partner {
+    margin-top: 80px;
+}
+.service-box {
+    margin: 20px auto 0;
+}
+.light-bg-service {
+    background: #f9f9f9;
+    box-shadow: 0px 0px 5px #d2d2d2;
+    margin-top: 40px;
+}
+.service-box h4 {
+    color: #6F1D1B;
+}
+.section-heading {
+    margin-top: 0;
+    font-weight: 400;
+}
+.news-post {
+    border: 1px solid #f1f1f1;
+    padding: 10px 10px 15px 10px;
+    margin: 15px 0;
+}
+.img-box img {
+        width: 370px;
+    }
