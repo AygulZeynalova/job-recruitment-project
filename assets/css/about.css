@@ -1,0 +1,154 @@
+header .innner-page {
+    padding: 25px 0;
+    background-image: url(https://www.konnectplugins.com/recruit/img/dark-bg.jpg);
+    text-align: left;
+    overflow-x: hidden;
+    background-position: center;
+    margin-top: -58px;
+    color:  #F2E8CF;
+    font-weight: 400;
+    
+}
+.about-section {
+    padding: 60px 0;
+    margin-top: 100px;
+}
+.container-about {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    word-break: break-all;
+    margin-left: 30px;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-md-12 {
+    width: 100%;
+    float: left;
+}
+.section-heading {
+    margin-top: 0;
+    font-weight: 400;
+}
+.text-dark {
+    color: #333333;
+}
+.konnect-space {
+    min-height: 20px;
+}
+.col-md-8 {
+    width: 66.66666667%;
+}
+.img-shadow {
+    border: 1px solid #f1f1f1;
+    padding: 15px; /* Adjust the padding as needed */
+    box-shadow: 1px 2px 3px #f1f1f1; /* Adjust the shadow values */
+   
+}
+img {
+    vertical-align: middle;
+}
+.photo {
+    margin-right: 30px;
+}
+.margin-top-20 {
+    margin-top: 20px;
+}
+.text-dark {
+    color: #333333;
+}
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    letter-spacing: 0.2px;
+    margin: 0 0 10px;
+}
+.konnect-list li {
+    list-style:circle;
+    font-size: 17px;
+    line-height: 31px;
+    font-weight: 500;
+    padding-left: 3px;
+}
+.konnect-list p {
+    width: 20px;
+}
+.konnect-list li:before {
+   
+    font-family: FontAwesome;
+    font-style: normal;
+    text-decoration: inherit;
+    color: #7FAAFF;
+    margin-right: 6px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.col-md-4 {
+    width: 23.33333333%;
+}
+.dark-bg {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-image: url(https://www.konnectplugins.com/recruit/img/dark-bg.jpg);
+    text-align: center;
+    color: white;
+}
+.text-white {
+    color: #ffffff;
+}
+.text-muted {
+    color: #ffffff;
+}
+.row span {
+font-size: 50px;
+color:  #6F1D1B;;
+}
+.row h2 {
+    font-size: 40px;
+}
+.konnect-team-member {
+    background: #ffffff;
+    padding: 20px;
+}
+h4.team-member-title {
+    color: #6F1D1B;
+    font-size: 25px;
+}
+.konnect-team-member p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    letter-spacing: 0.2px;
+}
+.our-team li {
+    padding: 0px;
+    margin: 0px 8px;
+    display: inline-block;
+    text-align: center;
+}
+.our-team  {
+    margin: 0px;
+    margin-right: 40px;
+}
+.konnect-team {
+    margin-top: 80px;
+}
+.about-footer {
+    margin-top: 100px;
+}
+.question {
+    height: 200px;
+}
+.photo-position {
+   
+}
