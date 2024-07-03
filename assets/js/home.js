@@ -1,41 +1,23 @@
-
-    const blogPosts = [
-        {
-            "title": "Blog Title here",
-            "date": "19 Feb, 2016",
-            "comments": 3,
-            "imageUrl": "https://www.konnectplugins.com/recruit/img/news/news1.jpg",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "link": "blog-single.html"
-          },
-          {
-            "title": "Blog Title here",
-            "date": "10 Feb, 2016",
-            "comments": 20,
-            "imageUrl": "https://www.konnectplugins.com/recruit/img/news/news2.jpg",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "link": "blog-single.html"
-          },
-          {
-            "title": "Blog Title here",
-            "date": "21 Jan, 2016",
-            "comments": 92,
-            "imageUrl": "https://www.konnectplugins.com/recruit/img/news/news3.jpg",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "link": "blog-single.html"
-          }
-    ];
-
-    const blogContainer = document.getElementById("blog-posts");
-
-    blogPosts.forEach(post => {
-        const postElement = document.createElement("div");
-        postElement.innerHTML = `
-            <h3><a href="${post.link}">${post.title}</a></h3>
-            <p>${post.content}</p>
-            <img src="${post.imageUrl}" alt="${post.title}">
-            <p>Date: ${post.date}</p>
-            <p>Comments: ${post.comments}</p>
-        `;
-        blogContainer.appendChild(postElement);
+fetch('db.json')
+  .then(response => response.json())
+  .then(data => {
+    data.products.map((item) => {
+      document.querySelector(".main-blog").innerHTML += `
+        <div class="blog-item">
+          <div class="blog-item-pic">
+            <img src="${item.image}" alt="">
+          </div>
+          <div class="blog-item-text">
+            <ul>
+              <li><i class="fa fa-calendar-o"></i> ${item.date}</li>
+              <li><i class="fa fa-comment-o"></i>${item.comments}</li>
+            </ul>
+            <h3><a href="#">${item.title}</a></h3>
+            <p>${item.description}</p>
+            <a href="${item.link}" class="blog-btn">${item.button_text} <i class="fa fa-arrow-right"></i><span class="arrow_right"></span></a>
+          </div>
+        </div>
+      `;
     });
+  })
+  .catch(error => console.error('Error:', error));

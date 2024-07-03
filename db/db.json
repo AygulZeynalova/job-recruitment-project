@@ -1,26 +1,54 @@
-[
+{
+  "blogs": [
     {
-      "title": "Blog Title here",
-      "date": "19 Feb, 2016",
-      "comments": 3,
-      "imageUrl": "https://www.konnectplugins.com/recruit/img/news/news1.jpg",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "link": "blog-single.html"
+      "date": "May 4, 2024",
+      "comments": "12 Comments",
+      "title": "How to effectively use your computer!",
+      "image": "https://www.konnectplugins.com/recruit/img/news/news1.jpg",
+      "description": "Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat",
+      "button_text": "READ MORE",
+      "button_icon": "fa fa-arrow-right",
+      "link": "#"
     },
     {
-      "title": "Blog Title here",
-      "date": "10 Feb, 2016",
-      "comments": 20,
-      "imageUrl": "https://www.konnectplugins.com/recruit/img/news/news2.jpg",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "link": "blog-single.html"
+      "date": "April 24, 2024",
+      "comments": "3 Comments",
+      "title": "5 ways to decorate your office",
+      "image": "https://www.konnectplugins.com/recruit/img/news/news2.jpg",
+      "description": "Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat",
+      "button_text": "READ MORE",
+      "button_icon": "fa fa-arrow-right",
+      "link": "#"
     },
     {
-      "title": "Blog Title here",
-      "date": "21 Jan, 2016",
-      "comments": 92,
-      "imageUrl": "https://www.konnectplugins.com/recruit/img/news/news3.jpg",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "link": "blog-single.html"
+      "date": "March 30, 2024",
+      "comments": "105 Comments",
+      "title": "TOP 5 cities for opening new business",
+      "image": "https://www.konnectplugins.com/recruit/img/news/news3.jpg",
+      "description": "Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat",
+      "button_text": "READ MORE",
+      "button_icon": "fa fa-arrow-right",
+      "link": "#"
+    },
+    {
+      "date": "May 2, 2024",
+      "comments": "15 Comments",
+      "title": "Earn money while you're on a vacation",
+      "image": "https://www.konnectplugins.com/recruit/img/news/news4.jpg",
+      "description": "Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat",
+      "button_text": "READ MORE",
+      "button_icon": "fa fa-arrow-right",
+      "link": "#"
+    },
+    {
+      "date": "May 2, 2024",
+      "comments": "15 Comments",
+      "title": "New job opportunities in energy sector",
+      "image": "./../assets/images/renewable_energy.jpg",
+      "description": "Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat",
+      "button_text": "READ MORE",
+      "button_icon": "fa fa-arrow-right",
+      "link": "#"
     }
   ]
+}
