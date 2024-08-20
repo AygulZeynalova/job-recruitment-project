@@ -76,8 +76,9 @@
 img {
     vertical-align: middle;
 }
-img {
+.blog__item__pic_1 img {
     border: 0;
+    height: 250px;
 }
 .img-responsive{
     display: block;
@@ -132,4 +133,11 @@ h4 {
 }
 .img-box img {
         width: 370px;
+    }
+
+    .blog__item__text {
+     margin-right: 20px;
+    }
+    .icon_item {
+        margin-left: -20px;
     }
