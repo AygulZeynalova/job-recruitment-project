@@ -135,9 +135,9 @@ h4 {
         width: 370px;
     }
 
-    .blog__item__text {
+.blog__item__text {
      margin-right: 20px;
-    }
-    .icon_item {
-        margin-left: -20px;
-    }
+ }
+ .blog__item__text-1 {
+    margin-top: -12px;
+ }
